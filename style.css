@@ -5,8 +5,12 @@
 }
 
 h2{
- 	text-align: left; 
-}
+ 	text-align-last: left; 
+ 	font-size: 18px;
+ 	font-family: cursive, calibri, bold;
+
+ }
+
 
 .navbar{
 	border-radius: 0px;
