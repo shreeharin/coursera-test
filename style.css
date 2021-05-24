@@ -100,3 +100,37 @@ li{
 	font-weight: bold;
 }
 
+  @media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      margin-left: -10px;
+      width: 100%;
+    }
+    .n3{
+      margin-right: 65px;
+      width: 100px;
+    }
+  }
+  
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    .content-n{
+      margin-right: 30px;
+    }
+  }
+
+
